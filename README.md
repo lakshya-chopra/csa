@@ -24,8 +24,11 @@
   - [a really good source](https://electronics.stackexchange.com/a/269984)
 
 **Understand the problem T FF solves which JK flip flop doesn't**
+
 **Why does D FF lead to delay?**  
+
 **Why should the clock frequency be higher than the frequency of propagation in the gates to avoid race condition?**
+
 **Learn to realize circuits using universal gates only (eg: implementing Half adder using only NAND GATE)**
 
 ### Questions are asked where you have to compute a K-Map and then implement the expression using only certain gates (like 2 NORs, NAND and OR, NAND & AND)

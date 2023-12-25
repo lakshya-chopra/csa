@@ -12,7 +12,11 @@
   - Designing a sequential circuit.
   
 **for questions asking to design a sequential circuit using the given state table**:
+  
+  - **Read Morris Mano's Computer System Arch. Chap 1 Page 33-37.**
+
   - Draw a table with columns: Present states, inputs given, next state, Flip flop inputs
+  - Note that the number of FF’s = the number of states (considering each FF gives one output).
   - This means, first an excitation table for the present state and then for the next states (where inputs are the ff inputs)
   - Find the boolean expression for FF inputs using K-maps.
   - [Practice Problem](https://www.youtube.com/watch?v=t875Z-VCasQ)

@@ -42,4 +42,18 @@
 ### Learn the logic behind the truth table of 4 to 2 encoder and a 2 to 4 decoder.
 
 ### 5 to 32 decoder, using 3-8 decoders only. [helpful](https://www.youtube.com/watch?v=Qcnmb7XuA8Y)
+
+### ADRESSING MODES:
+  - Immediate addressing : the value of the operand is specified directly in the instruction (no need to access memory).
+  - Implied addressing : When the operand value isn't clearly stated but it is implied, for eg: ADD R1,R2 => Here, it is implied that the contents of R2 need to be added to R1.
+  - Direct addressing : stating the memory address of the operand. [This address goes to the AR, which has **address access** to the memory, and then the operand at that address is placed on the common bus, where is loaded into the specified register]
+  - Indirect addressing
+  - Base Register Relative : Here, the effective address = addr of Base register + the offset (offset can be implemented through the *branch* instruction)
+    [Check out](https://www.ibm.com/docs/en/aix/7.1?topic=processor-branch-instructions)
+  - PC Relative
+  - Indexed Addressing : Effective ADDR = Base addr + value of Index Register.
+
+### If transferring 12 bit data to 16 bit, then add 4 0's in the start of 12 bit data (i.e. move the actual data to LSB)
+### If transferring from 16 bit to 12, then 
+    
      

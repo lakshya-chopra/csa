@@ -56,15 +56,18 @@
 
 ### If transferring 12 bit data to 16 bit, then add 4 0's in the start of 12 bit data (i.e. move the actual data to LSB)
 
-## DMA: Direct Memory Access allows hardware/external devices to read/write to the main memory, without occupying the CPU for the entire access time, it is implemented using a DMA controller, which can generate memory addresses and initiate read/write cycles. The CPU first initiates the transfer, then the DMA controller supervises and controls the transfer. Eventually, when the transfer is complete, the controller sends an interrupt to the CPU.
+### DMA: Direct Memory Access allows hardware/external devices to read/write to the main memory, without occupying the CPU for the entire access time, it is implemented using a DMA controller, which can generate memory addresses and initiate read/write cycles. The CPU first initiates the transfer, then the DMA controller supervises and controls the transfer. Eventually, when the transfer is complete, the controller sends an interrupt to the CPU.
 
 ![image](https://github.com/lakshya-chopra/csa/assets/77010972/489287b6-04be-45d0-94f3-2c2286a96936)
 
-## Pipeline: Pipelining is a technique in which a sequential process is divided into various sub operations with each sub operation being executed in a dedicated segment of the CPU, concurrently. The result obtained from the computation of each segment is then transferred to the next segment. Thus, it reduces the number of clock cycles and improves efficienCY.
+### Pipeline: Pipelining is a technique in which a sequential process is divided into various sub operations with each sub operation being executed in a dedicated segment of the CPU, concurrently. The result obtained from the computation of each segment is then transferred to the next segment. Thus, it reduces the number of clock cycles and improves efficienCY.
 ![Img](https://s0.stackpointer.io/wp-content/uploads/2009/02/pipelining.png)
+<br>
 [nice quora answer](https://www.quora.com/What-is-pipelining/answer/Ryan-Lam-1)
 
-[One of the major complications with deep pipelining (eg, 31-stage pipelining used in some of the Intel Pentium 4 processors) is when a conditional branch instruction is being executed – due to the fact that the processor will not be able to determine the location of the next instruction, therefore it has to wait for the branch instruction to finish and the whole pipeline may need to be flushed as a result. If a program has many conditional branch instructions, pipelining could have a negative effect on the overall perfomance. To alleviate this problem, branch prediction can be used, but this too can have a negative effect if the branches are predicted wrongly.](https://stackpointer.io/hardware/how-pipelining-improves-cpu-performance/113/)
+One of the major complications with deep pipelining (eg, 31-stage pipelining used in some of the Intel Pentium 4 processors) is when a conditional branch instruction is being executed – due to the fact that the processor will not be able to determine the location of the next instruction, therefore it has to wait for the branch instruction to finish and the whole pipeline may need to be flushed as a result. If a program has many conditional branch instructions, pipelining could have a negative effect on the overall perfomance. To alleviate this problem, branch prediction can be used, but this too can have a negative effect if the branches are predicted wrongly.
+
+[quoted from](https://stackpointer.io/hardware/how-pipelining-improves-cpu-performance/113/)
 
 
     

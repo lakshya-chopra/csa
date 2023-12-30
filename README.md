@@ -65,9 +65,7 @@
 <br>
 [nice quora answer](https://www.quora.com/What-is-pipelining/answer/Ryan-Lam-1)
 
-One of the major complications with deep pipelining (eg, 31-stage pipelining used in some of the Intel Pentium 4 processors) is when a conditional branch instruction is being executed – due to the fact that the processor will not be able to determine the location of the next instruction, therefore it has to wait for the branch instruction to finish and the whole pipeline may need to be flushed as a result. If a program has many conditional branch instructions, pipelining could have a negative effect on the overall perfomance. To alleviate this problem, branch prediction can be used, but this too can have a negative effect if the branches are predicted wrongly.
-
-[quoted from](https://stackpointer.io/hardware/how-pipelining-improves-cpu-performance/113/)
+"One of the major complications with deep pipelining (eg, 31-stage pipelining used in some of the Intel Pentium 4 processors) is when a conditional branch instruction is being executed – due to the fact that the processor will not be able to determine the location of the next instruction, therefore it has to wait for the branch instruction to finish and the whole pipeline may need to be flushed as a result. If a program has many conditional branch instructions, pipelining could have a negative effect on the overall perfomance. To alleviate this problem, branch prediction can be used, but this too can have a negative effect if the branches are predicted wrongly." [quoted from](https://stackpointer.io/hardware/how-pipelining-improves-cpu-performance/113/)
 
 
     
